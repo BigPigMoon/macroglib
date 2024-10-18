@@ -2,13 +2,13 @@ use macroquad::prelude::*;
 
 use crate::scene::Scene;
 
-pub struct Application {
+pub struct App {
     current_scene: Option<Box<dyn Scene>>,
 }
 
-impl Application {
+impl App {
     fn new() -> Self {
-        Application {
+        App {
             current_scene: None,
         }
     }

@@ -1,6 +1,7 @@
-mod application;
-mod drawable;
-mod entity;
-mod game_camera;
-mod scene;
+pub mod application;
+pub mod drawable;
+pub mod entity;
+pub mod game_camera;
+pub mod prelude;
+pub mod scene;
 
